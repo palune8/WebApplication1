@@ -13,7 +13,8 @@ namespace WebApplication2.Data
             : base(options)
         {
             Database.EnsureCreated();
-        }
+        } 
+
 
         public DbSet<WebApplication2.Models.Produit> Produit { get; set; }
     }
